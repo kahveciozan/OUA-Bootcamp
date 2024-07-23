@@ -48,6 +48,11 @@ Sahne ekran görüntüsü
 
 ### Sprint 2:
 
+
+Sprint Notları:
+- UI ve logo çalışmalarına başlandı.
+- Modelleme ve konsept süreci tamamlandı.
+
 Review:
 - Oyun içi modeller animasyon aşamasına getirildi.
 - UI için eskizler oluşturuldu
