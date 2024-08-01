@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using DG.Tweening;  
+using DG.Tweening;
+using UnityEngine.Rendering;
 
 public class QusetionCreator : MonoBehaviour
 {
@@ -15,6 +16,17 @@ public class QusetionCreator : MonoBehaviour
     [SerializeField] private TextMeshProUGUI questionText1;
 
     public string currentAnswer;
+
+    [Header("Panels")]
+    [SerializeField] private GameObject upPanel;
+    [SerializeField] private GameObject downPanel;
+
+
+    private void Awake()
+    {
+        CheckPoint.OnAnswered += CheckAnswer;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +40,42 @@ public class QusetionCreator : MonoBehaviour
         CountDown();
     }
 
+    private void CheckAnswer(string answer)
+    {
+
+        int currentAnswerInt = int.Parse(currentAnswer);
+        int playerAnswerInt = int.Parse(answer);
+
+        if (currentAnswerInt > playerAnswerInt)
+        {
+            Debug.Log("Wrong Answer - Increase your answer");
+
+            StartCoroutine(AnimController(upPanel));
+
+        }
+        else if (currentAnswerInt < playerAnswerInt)
+        {
+            // TODO: Wrong Answer animation - Decrease your answer
+            Debug.Log("Wrong Answer - Decrease your answer");
+
+            StartCoroutine(AnimController(downPanel));
+            
+
+        }
+        else
+        {
+            Debug.Log("Correct Answer");
+            CountDown();
+        }
+
+    }
+
+    IEnumerator AnimController(GameObject g)
+    {
+        g.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        g.SetActive(false);
+    }
 
     // Choose a random question from the dictionary
     private void RandomQuestionGenerator()
