@@ -3,7 +3,12 @@ guid: 9af2d0702d6805b49ba28fbd879e39a9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: btc_lvl_vnt
+    second: {fileID: 2100000, guid: 9573a30c85698fb4899a433b00207b5d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
