@@ -3,7 +3,22 @@ guid: 8d4d9417df2b0374bb5251487cb9015f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: btc_lvl_body
+    second: {fileID: 2100000, guid: c2b94536d78ab9c408189a550d8b7e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: btc_lvl_keys
+    second: {fileID: 2100000, guid: 499fed9021744b04ea9affb01a773100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: btc_lvl_vnt
+    second: {fileID: 2100000, guid: 09d1a461e42eb614ea56e5698788e6d7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
