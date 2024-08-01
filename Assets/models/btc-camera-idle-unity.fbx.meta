@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 1b8909d31f7e22f42a00ead383f3e28c
+guid: 5084c91f6d1908d44b37dad6683e30d9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_cam_armslegs
+    second: {fileID: 2100000, guid: f1741bb2f3d83b84aaf0d9ed2e2b6ec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_cam_cloth
+    second: {fileID: 2100000, guid: 2312714e4c8db01478a61ba4f46b4de5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_cam_eyes
+    second: {fileID: 2100000, guid: d445bd021294a9b41b4c4574bfb98f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_cam_head
+    second: {fileID: 2100000, guid: 577d2c9d7f715a5489d515ec16fa5df9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
