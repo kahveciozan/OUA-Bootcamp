@@ -3,7 +3,27 @@ guid: 0671070e8a5025041b03ae20004cbbfd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c__eyes
+    second: {fileID: 2100000, guid: fc708025337216847b4ef1bba22f2947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c_arms1
+    second: {fileID: 2100000, guid: 723a3cc4ca6462b4da252baee8204a31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c_body
+    second: {fileID: 2100000, guid: dae81b3e60d06f94cb64832eed8afd3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c_leg3
+    second: {fileID: 2100000, guid: 164599ad1ef4591438fe1dcc55c70c27, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
