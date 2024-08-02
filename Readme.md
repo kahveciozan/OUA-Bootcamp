@@ -1,5 +1,5 @@
 
-                                                                   ![Asset 1](https://github.com/user-attachments/assets/c99ba136-69d1-4cf7-b86d-e98ce4171272)
+![Asset 1](https://github.com/user-attachments/assets/c99ba136-69d1-4cf7-b86d-e98ce4171272)
 
 
 ### Oyunun İsmi
@@ -31,7 +31,7 @@ STITCHIES
 ### Video linki
 
 ---
-                                                                                      ### SPRINTLER 
+### SPRINTLER 
 ---
 
 ### Sprint 1:
