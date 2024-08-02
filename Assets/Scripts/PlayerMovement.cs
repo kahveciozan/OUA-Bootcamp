@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public AudioSource audioSource;
+
     [Header("Movement")]
     private float moveSpeed;
     private float desiredMoveSpeed;
@@ -306,6 +308,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        audioSource.Play();
+
         exitingSlope = true;
 
         // reset y velocity
