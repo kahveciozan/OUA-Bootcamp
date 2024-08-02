@@ -17,7 +17,7 @@ STITCHIES
 ### Oyun Hakkında
 ---
 
- Stitchies, amacın verilen alandan düşmeden en çok soruyu cevaplamak olduğu bir 3D multiplayer oyundur. Oyun içerisinde yapay zeka tarafından sorulan sorulara platform üzerinde hareket ederek cevap verilir ve süre içinde en çok puanı toplayan kişi birinci olur.
+ Stitchies, amacın sekiz yanlış sayısına ulaşmadan kalan son oyuncu olmak olduğu bir 3D platform oyundur. Oyun içerisinde yapay zeka tarafından sorulan sorulara platform üzerinde hareket ederek cevap verilir ve süre içinde en çok puanı toplayan kişi birinci olur.
 
 ### Hedef Kitle
 ---
@@ -29,6 +29,8 @@ STITCHIES
 5. PC oyuncuları
 
 ### Video linki
+
+https://youtu.be/fBu_UciDmZU
 
 ---
 ### SPRINTLER 
@@ -187,6 +189,10 @@ Trello Ekran Görüntüleri:
 
 
 Final sahnesi ekran görüntüsü:
+
+
+![Ekran görüntüsü 2024-08-02 205656](https://github.com/user-attachments/assets/f66cd94e-7a59-4cc9-9a0c-efa654531f47)
+
 
 UI ekran görüntüleri:
 
