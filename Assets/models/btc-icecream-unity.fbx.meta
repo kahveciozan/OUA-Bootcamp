@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: model_i_c__eyes
-    second: {fileID: 2100000, guid: 929cedd119c94cc47be80adbc3eac846, type: 2}
+    second: {fileID: 2100000, guid: 812993e66cf9fa34795b7d1264db99e5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: model_i_c_arms1
-    second: {fileID: 2100000, guid: 79a49334d808e3a4cb17dba80114615d, type: 2}
+    second: {fileID: 2100000, guid: a2d5bae4b2d15654b999d27d0378d065, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: model_i_c_body
-    second: {fileID: 2100000, guid: c8441fbd5743a024297f88f0fd07bc65, type: 2}
+    second: {fileID: 2100000, guid: e1714d3a34459fa488ed94e9502d1720, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: model_i_c_leg3
-    second: {fileID: 2100000, guid: 17195614c1f0db645a7ab01b27cd6d0c, type: 2}
+    second: {fileID: 2100000, guid: 164599ad1ef4591438fe1dcc55c70c27, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
