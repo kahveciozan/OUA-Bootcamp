@@ -21,6 +21,11 @@ public class QusetionCreator : MonoBehaviour
     [SerializeField] private GameObject upPanel;
     [SerializeField] private GameObject downPanel;
 
+    [Header("Effects")]
+    [SerializeField] private ParticleSystem confettiPS;
+    [SerializeField] private AudioSource PlayerAudioSource;
+
+    public AudioClip winnerSound, looserSound; 
 
     private void Awake()
     {
@@ -51,7 +56,7 @@ public class QusetionCreator : MonoBehaviour
             Debug.Log("Wrong Answer - Increase your answer");
 
             StartCoroutine(AnimController(upPanel));
-
+            PlayAudio(looserSound);
         }
         else if (currentAnswerInt < playerAnswerInt)
         {
@@ -59,13 +64,14 @@ public class QusetionCreator : MonoBehaviour
             Debug.Log("Wrong Answer - Decrease your answer");
 
             StartCoroutine(AnimController(downPanel));
-            
-
+            PlayAudio(looserSound);
         }
         else
         {
             Debug.Log("Correct Answer");
+            confettiPS.Play();
             CountDown();
+            PlayAudio(winnerSound);
         }
 
     }
@@ -147,5 +153,12 @@ public class QusetionCreator : MonoBehaviour
 
         });
 
+    }
+
+    // Assign audiclip to the audio source and play it
+    private void PlayAudio(AudioClip clip)
+    {
+        PlayerAudioSource.clip = clip;
+        PlayerAudioSource.Play();
     }
 }
