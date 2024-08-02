@@ -209,7 +209,13 @@ Daily Scrum:
 ![Ekran görüntüsü 2024-08-02 165026](https://github.com/user-attachments/assets/82680073-ebe8-4a33-a8b5-290133a168de)
 ![Ekran görüntüsü 2024-07-29 211940](https://github.com/user-attachments/assets/e53008ba-3dcc-43b8-bc1a-5eb7788a4cfd)
 
+Kaynaklar:
 
+https://pixabay.com/sound-effects/cartoon-jump-6462/
+https://pixabay.com/sound-effects/suspense-music-56054/
+https://pixabay.com/sound-effects/goodresult-82807/
+https://pixabay.com/sound-effects/8-bit-video-game-lose-sound-version-1-145828/
+https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
 
 
  
