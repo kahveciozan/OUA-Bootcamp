@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 19603c2427ea06a4abfc1ffc726f7f3f
+guid: 82c07f802f920fe4fb2920552847bea3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c__eyes
+    second: {fileID: 2100000, guid: 615821515a0623f49b244419456dc752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c_arms1
+    second: {fileID: 2100000, guid: 58d6a2dccae5c9f4bae48de5608d3c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c_body
+    second: {fileID: 2100000, guid: dbc17d03e4501c843b47170cadeb9ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_i_c_leg3
+    second: {fileID: 2100000, guid: 66231102205332845baea15aaa22b63d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
