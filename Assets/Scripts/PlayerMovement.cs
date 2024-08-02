@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public AudioSource audioSource;
 
+    public Animator animator;
+    public float speed;
+
     [Header("Movement")]
     private float moveSpeed;
     private float desiredMoveSpeed;
@@ -94,6 +97,10 @@ public class PlayerMovement : MonoBehaviour
     {
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+        if (grounded)
+        {
+            animator.SetBool("IsJump", false);
+        }
 
         MyInput();
         SpeedControl();
@@ -115,6 +122,8 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
 
         // when to jump
         if (Input.GetKey(jumpKey) && readyToJump && grounded)
@@ -308,6 +317,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        Debug.Log("Jumping");
+        animator.SetBool("IsJump", true);
+
         audioSource.Play();
 
         exitingSlope = true;
